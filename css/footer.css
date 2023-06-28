@@ -1,0 +1,32 @@
+.keyboard-wrap {
+    display: grid;
+    grid-gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.keyboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.keyboard-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 40px;
+    height: 58px;
+    font-weight: bold;
+    background-color: #d3d6da;
+}
+#enter,#close{
+    width: 60px;
+    font-size: 12px;
+}
+#close img{
+ width: 30px;
+ height: 20px;
+}

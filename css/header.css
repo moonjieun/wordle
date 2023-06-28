@@ -1,33 +1,42 @@
-
-.menu-bar{
+.menu-bar {
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #d3d6da;
 }
+
+.menu {
+  width: 33%;
+}
+
 header img {
   padding: 0 4px;
   width: 30px;
   height: 30px;
   align-items: center;
 }
-header .logo{
+
+header .logo {
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header .logo p{
+
+header .logo p {
   font-weight: bold;
   font-size: 28px;
 }
-.menu-icons{
+
+.menu-icons {
+  width: 33%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.menu-icons img{
+.menu-icons img {
   width: 30px;
   height: 30px;
 }
@@ -40,4 +49,17 @@ header .logo p{
   color: black;
   border: 1px solid black;
   border-radius: 20px;
+}
+
+@media screen and (max-width:768px) {
+  .menu {
+    width: 0%;
+  }
+
+  header .logo {
+    width: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

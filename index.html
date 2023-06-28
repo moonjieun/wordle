@@ -1,28 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WordleGame</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>WordleGame</title>
 </head>
+
 <body>
   <header>
     <div class="menu-bar">
-    <img src="assets/hamburgermenu.svg" alt="" />
-    <div class="logo">
-      <p class="title">Wordle</p>
+      <div class="menu">
+        <img src="assets/hamburgermenu.svg" alt="" />
+      </div>
+      <div class="logo">
+        <p class="title">Wordle</p>
+      </div>
+      <div class="menu-icons">
+        <img src="assets/question-mark.svg" alt="" />
+        <img src="assets/gameicon.svg" alt="" />
+        <img src="assets/setting.svg" alt="" />
+        <button>Save 50% on Games</button>
+      </div>
     </div>
-    <div class="menu-icons">
-      <img src="assets/question-mark.svg" alt="" />
-      <img src="assets/gameicon.svg" alt="" />
-      <img src="assets/setting.svg" alt="" />
-      <button>Save 50% on Games</button>
-    </div>
-  </div>
   </header>
-  <main></main>
-  <footer></footer>
+  <main>
+    <div class="board-container">
+      <div class="module-wrap">
+        <div class="board-row row-0">
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+        </div>
+        <div class="board-row row-1">
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+        </div>
+        <div class="board-row row-2">
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+        </div>
+        <div class="board-row row-3">
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+        </div>
+        <div class="board-row row-4">
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+        </div>
+        <div class="board-row row-5">
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+          <div class="board-block"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="keyboard-wrap">
+      <div class="keyboard">
+        <div class="keyboard-block">Q</div>
+        <div class="keyboard-block">W</div>
+        <div class="keyboard-block">E</div>
+        <div class="keyboard-block">R</div>
+        <div class="keyboard-block">T</div>
+        <div class="keyboard-block">Y</div>
+        <div class="keyboard-block">U</div>
+        <div class="keyboard-block">I</div>
+        <div class="keyboard-block">O</div>
+        <div class="keyboard-block">P</div>
+      </div>
+      <div class="keyboard">
+        <div class="keyboard-block">A</div>
+        <div class="keyboard-block">S</div>
+        <div class="keyboard-block">D</div>
+        <div class="keyboard-block">F</div>
+        <div class="keyboard-block">G</div>
+        <div class="keyboard-block">H</div>
+        <div class="keyboard-block">J</div>
+        <div class="keyboard-block">K</div>
+        <div class="keyboard-block">L</div>
+      </div>
+      <div class="keyboard">
+        <div class="keyboard-block" id="enter">ENTER</div>
+        <div class="keyboard-block">Z</div>
+        <div class="keyboard-block">X</div>
+        <div class="keyboard-block">C</div>
+        <div class="keyboard-block">V</div>
+        <div class="keyboard-block">B</div>
+        <div class="keyboard-block">N</div>
+        <div class="keyboard-block">M</div>
+        <div class="keyboard-block" id="close">
+          <img src="assets/close.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
-</html>
 
+</html>
