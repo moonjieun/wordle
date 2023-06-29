@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
 .keyboard-wrap {
     display: grid;
     grid-gap: 5px;
@@ -13,6 +14,7 @@
 }
 
 .keyboard-block {
+    font-family: 'Martian Mono', monospace;
     display: flex;
     justify-content: center;
     align-items: center;

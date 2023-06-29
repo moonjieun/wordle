@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Outfit:wght@100;200;300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Outfit:wght@100;200;300&display=swap');
+.title{
+  font-size: 35px;
+  font-family: 'Caprasimo', cursive;
+}
 .board-container {
   width: 100%;
   position: relative;
@@ -23,6 +30,7 @@
 }
 
 .board-block {
+  font-family: 'Caprasimo', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +58,8 @@
 }
 
 .timer{
-  font-size: 18px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
   margin: 0 auto;
   margin-bottom: 10px;
   width: 70px;
