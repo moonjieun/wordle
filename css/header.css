@@ -10,21 +10,21 @@
   width: 33%;
 }
 
-header img {
+.menu img {
   padding: 0 4px;
   width: 30px;
   height: 30px;
   align-items: center;
 }
 
-header .logo {
+.menu .logo {
   width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header .logo p {
+.menu .logo p {
   font-weight: bold;
   font-size: 28px;
 }
