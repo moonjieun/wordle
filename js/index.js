@@ -28,6 +28,7 @@ function appStart() {
       const enteredTxt = block.innerText;
       const answerTxt = answer[i];
       if (enteredTxt === answerTxt) {
+        block.classList.add("correct-animation");
         block.style.background = "#6AAA64";
         correctTxt++;
       } else if (answer.includes(enteredTxt))
@@ -38,6 +39,7 @@ function appStart() {
     if (correctTxt === 5) gameOver();
     else nextLine();
   };
+
   const handleBackspace = () => {
     if (index > 0) {
       const prevBlock = document.querySelector(
@@ -47,6 +49,7 @@ function appStart() {
     }
     if (index !== 0) index -= 1;
   };
+
   const handleKeydown = (event) => {
     const key = event.key.toUpperCase();
     const keyCode = event.keyCode;
@@ -59,9 +62,11 @@ function appStart() {
       else return;
     } else if (65 <= keyCode && keyCode <= 90) {
       thisBlock.innerText = key;
+      thisBlock.style.border = "2px solid black";
       index++;
     }
   };
+
   const startTimer = () => {
     const startTime = new Date();
     function setTime() {
